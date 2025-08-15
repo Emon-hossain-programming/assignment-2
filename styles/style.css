@@ -221,7 +221,34 @@ body{
     color: white;
     font-size: 1rem;
 }
+/* footer */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.foot{
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.footer-subtitle{
+    max-width: 360px;
+    height: 180px;
+}
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
 
+}
+.items{
+    list-style: none;
+}
+.footer-image{
+    margin-right: 20px;
+}
 
 
 
@@ -339,4 +366,23 @@ body{
 .form-btn{
     width: 103px;
 }
+.foot{
+    flex-direction: column;
+    margin-left: 10px;
+}
+.footer-list{
+    grid-template-columns: repeat(1, 1fr);
+}
+.footer-logos{
+    margin-left: 35px;
+}
+.footer-subtitle{
+    margin-left: 40px;
+}
+
+
+
+
+
+
 }
