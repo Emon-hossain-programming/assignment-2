@@ -190,17 +190,37 @@ body{
 .zabo-plant{
     width: 753px;
 }
-
-
-/* .trusted-badge{
-    width: 286px;
-    height: 286px;
-    position: relative;
-    top: 130px;
-    left: 400px;
-} */
-
-
+/* form section */
+.form{
+    background-image: url(../image/news-letter-bg.png);
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.form-description{
+    font-weight: bold;
+    font-size: 3.125rem;
+    
+}
+.form-info{
+    text-align: center;
+}
+.form-email{
+    width: 644px;
+    height: 50px;
+    font-size: 1rem;
+}
+.form-btn{
+    background-color: rgba(233, 90, 8, 1);
+    width: 186px;
+    height: 50px;
+    color: white;
+    font-size: 1rem;
+}
 
 
 
@@ -303,6 +323,20 @@ body{
     width: 576px;
     margin-left: 10px;
 }
-
-
+.form{
+    width: 576px;
+}
+.form-besic{
+    width: 100%;
+}
+.form-description{
+    font-size: 20px;
+}
+.form-email{
+    width: 218px;
+    font-size: 16px;
+}
+.form-btn{
+    width: 103px;
+}
 }
