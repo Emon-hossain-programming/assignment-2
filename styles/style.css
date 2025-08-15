@@ -136,9 +136,69 @@ body{
 .flower-desc{
     font-size: 1.375rem;
     margin-bottom: 20px;
+    
    
     
 }
+.deals-content{
+    font-weight: bold;
+    font-size: 3.125rem;
+
+}
+.deals-title{
+    font-size: 1.375rem;
+    width: 888px;
+    margin-left: 120px;
+    
+}
+.deals-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+
+    
+}
+.deals{
+    text-align: center;
+    margin-top: 129px;
+    
+}
+.img-1{
+    margin-bottom: 20px;
+    border-radius: 22px;
+    
+}
+.deals-img-1{
+    position: relative;
+    display: inline-block;
+}
+.deals-img-1 img{
+    width: 100%;
+    height: auto;
+}
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.zabo-plant{
+    width: 753px;
+}
+
+
+/* .trusted-badge{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    top: 130px;
+    left: 400px;
+} */
 
 
 
@@ -223,9 +283,26 @@ body{
 .flower-ul{
     margin-top: 10px;
 }
-
-
-
+.deals-image{
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.deals-img{
+    width: 100%;
+    margin-left: 60px;
+    
+}
+.img-3{
+    width: 100%;
+    margin-left: 60px;
+}
+.deals-content{
+    margin-top: 250px;
+}
+.deals-title{
+    width: 576px;
+    margin-left: 10px;
+}
 
 
 }
